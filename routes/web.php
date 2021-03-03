@@ -1,12 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AboutUsController;
-use App\Http\Controllers\ContactUsController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\NewsController;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BlogDetailController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ProjectDetailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,25 +18,9 @@ use App\Http\Controllers\ProgramController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/home', [HomeController::class, 'index']);
-
-Route::prefix('product')->group(function () {
-    Route::get('/list-product', [ProductController::class, 'product']);
-});
-
-Route::get('news', function () {
-    return view('news', [NewsController::class, 'news' => 'news', 'topic' => 'educa-studio-berbagi-untuk-warga-sekitar-terdampak-covid-19']);
-});
-
-Route::prefix('program')->group(function () {
-    Route::get('/daftar-program', [ProgramController::class, 'program']);
-});
-
-Route::get('/about-us', [AboutUsController::class, 'about']);
-
-
-Route::resource('contact-us', ContactUsController::class);
+Route::get('/', [IndexController::class, 'index'])->name('index.home');
+Route::get('/blog', [BlogController::class, 'blog'])->name('index.blog');
+Route::get('/blog-detail', [BlogDetailController::class, 'blogdetail'])->name('index.blog-detail');
+Route::get('/project-detail', [ProjectDetailController::class, 'projectdetail'])->name('index.project-detail');
+Route::get('/about', [AboutController::class, 'about'])->name('index.about');
+Route::resource('contact', ContactController::class);
