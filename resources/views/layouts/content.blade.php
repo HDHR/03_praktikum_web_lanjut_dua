@@ -107,7 +107,7 @@
                          <div class="blog-header-info">
                               <h4 class="blog-category text-info">Creative</h4>
 
-                              <h3><a href="blog-detail.html">The Key to Creative Work is Knowing When to Walk Away</a></h3>
+                              <h3><a href="/blog-detail">The Key to Creative Work is Knowing When to Walk Away</a></h3>
                          </div>
                     </div>
                </div>
@@ -119,7 +119,7 @@
                          <div class="blog-info">
                               <h4 class="blog-category text-danger">Design</h4>
 
-                              <h3><a href="blog-detail.html">Why Truly Accessible Design Benefits Everyone</a></h3>
+                              <h3><a href="/blog-detail">Why Truly Accessible Design Benefits Everyone</a></h3>
                          </div>
                     </div>
 
@@ -129,7 +129,7 @@
                          <div class="blog-info">
                               <h4 class="blog-category text-success">lifestyle</h4>
 
-                              <h3><a href="blog-detail.html">Be Humble About What You Know</a></h3>
+                              <h3><a href="/blog-detail">Be Humble About What You Know</a></h3>
                          </div>
                     </div>
 
@@ -139,7 +139,7 @@
                          <div class="blog-info">
                               <h4 class="blog-category text-primary">Coding</h4>
 
-                              <h3><a href="blog-detail.html">The Mistakes I Made As a Coding Beginner</a></h3>
+                              <h3><a href="/blog-detail">The Mistakes I Made As a Coding Beginner</a></h3>
                          </div>
                     </div>
 
@@ -243,7 +243,7 @@
 
                          <h1 class="text-white" data-aos="fade-up">We are ready for your digital marketing</h1>
 
-                         <a href="contact.html" class="custom-btn btn-bg btn mt-3" data-aos="fade-up" data-aos-delay="100">Let us discuss together!</a>
+                         <a href="/contact" class="custom-btn btn-bg btn mt-3" data-aos="fade-up" data-aos-delay="100">Let us discuss together!</a>
 
                          <strong class="d-block py-3 pl-5 text-white" data-aos="fade-up" data-aos-delay="200"><i class="fa fa-phone mr-2"></i> +99 080 070 4224</strong>
                     </div>
@@ -271,7 +271,7 @@
 
                          <h2 class="mb-4" data-aos="fade-up">the best <strong>Digital Marketing agency</strong> in Rio de Janeiro</h2>
 
-                         <p class="mb-0" data-aos="fade-up">Total 5 HTML pages are included in this template from TemplateMo website. Please check 2 <a href="blog.html">blog</a> pages, <a href="project-detail.html">project</a> page, and <a href="contact.html">contact</a> page.
+                         <p class="mb-0" data-aos="fade-up">Total 5 HTML pages are included in this template from TemplateMo website. Please check 2 <a href="/blog">blog</a> pages, <a href="/project-detail">project</a> page, and <a href="/contact">contact</a> page.
                               <br><br>You are <strong>allowed</strong> to use this template for commercial or non-commercial purpose. You are NOT allowed to redistribute the template ZIP file on template collection websites.
                          </p>
                     </div>
@@ -307,7 +307,7 @@
                                    <small>Marketing</small>
 
                                    <h3>
-                                        <a href="project-detail.html">
+                                        <a href="/project-detail">
                                              <span>Sweet Go Agency</span>
                                              <i class="fa fa-angle-right project-icon"></i>
                                         </a>
@@ -322,7 +322,7 @@
                                    <small>Website</small>
 
                                    <h3>
-                                        <a href="project-detail.html">
+                                        <a href="/project-detail">
                                              <span>Smart Ladies</span>
                                              <i class="fa fa-angle-right project-icon"></i>
                                         </a>
@@ -337,7 +337,7 @@
                                    <small>Branding</small>
 
                                    <h3>
-                                        <a href="project-detail.html">
+                                        <a href="/project-detail">
                                              <span>Shoes factory</span>
                                              <i class="fa fa-angle-right project-icon"></i>
                                         </a>
@@ -352,7 +352,7 @@
                                    <small>Social Media</small>
 
                                    <h3>
-                                        <a href="project-detail.html">
+                                        <a href="/project-detail">
                                              <span>Race Bicycle</span>
                                              <i class="fa fa-angle-right project-icon"></i>
                                         </a>
@@ -367,7 +367,7 @@
                                    <small>Video</small>
 
                                    <h3>
-                                        <a href="project-detail.html">
+                                        <a href="/project-detail">
                                              <span>Ultimate HealthCare</span>
                                              <i class="fa fa-angle-right project-icon"></i>
                                         </a>
